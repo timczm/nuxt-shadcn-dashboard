@@ -28,7 +28,7 @@ function handleSelectLink(link: string) {
   <SidebarMenuButton as-child tooltip="Search">
     <Button variant="outline" size="sm" class="text-xs" @click="openCommand = !openCommand">
       <Icon name="i-lucide-search" />
-      <span class="font-normal group-data-[collapsible=icon]:hidden">Search documentation</span>
+      <span class="font-normal group-data-[collapsible=icon]:hidden">Search</span>
       <div class="ml-auto flex items-center space-x-0.5 group-data-[collapsible=icon]:hidden">
         <BaseKbd>{{ metaSymbol }}</BaseKbd>
         <BaseKbd>K</BaseKbd>
